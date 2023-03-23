@@ -11,11 +11,7 @@
     color: white !important;
   }
 
-  .dropdown1 {
-    position: top;
-    display: inline-block;
-  }
-  
+  .dropdown1 {position: top;display: inline-block;}
   
   .selection-header button, .selection-header a {
 
@@ -29,11 +25,7 @@
     transition: opacity 0.15s;
   }
   
-  
-  .selection-header button:hover {
-    opacity: 0.7;
-  }
-  
+  .selection-header button:hover {opacity: 0.7;}
   
   .problem-dropdown {
     color: white;
@@ -47,7 +39,6 @@
     font-family: system-ui;
   }
   
-  
   .problem-dropdown a {
     color: white;
     padding: 12px 16px;
@@ -56,24 +47,13 @@
     transition: background-color 0.15s;
   }
   
-  
   .dropdown1:hover .problem-dropdown {display: block;}
-  
   
   .problem-dropdown a:hover {
     background-color: #bbbbbb;
   }
   
-  
-  
-  
-  
-  
-  .dropdown2 {
-    position: right;
-    display: inline-block;
-  }
-  
+  .dropdown2 {position: right;display: inline-block;}
   
   .solution-dropdown {
     display: none;
@@ -85,7 +65,6 @@
     font-family: system-ui;
   }
   
-  
   .solution-dropdown a {
     color: white;
     padding: 12px 16px;
@@ -94,24 +73,14 @@
     transition: background-color 0.15s;
   }
   
-  
   .dropdown2:hover .solution-dropdown {display: block;}
-  
   
   .solution-dropdown a:hover {
     background-color: #bbbbbb;
   }
-  
-  
-  
-  
-  
-  
+
   .dropdown3 {
-    position: right;
-    display: inline-block;
-  }
-  
+    position: right;display: inline-block;}
   
   .future-dropdown {
     display: none;
@@ -123,7 +92,6 @@
     font-family: system-ui;
   }
   
-  
   .future-dropdown a {
     color: white;
     padding: 12px 16px;
@@ -132,17 +100,12 @@
     transition: background-color 0.15s;
   }
   
-  
   .dropdown3:hover .future-dropdown {display: block;}
-  
   
   .future-dropdown a:hover {
     background-color: #bbbbbb;
   }
-  .github {
-    float: right;
-  }
-  
+  .github {float: right;}
   
   .top-text {
     backdrop-filter: blur(10px);
@@ -162,7 +125,6 @@
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
   }
   
-  
   .text-container {
     background-color: rgb(72, 135, 207);
     backdrop-filter: blur(10px);
@@ -178,30 +140,25 @@
     padding-left: 10px;
   }
   
-  
   .text-container p {
     font-family: system-ui;
     font-size: medium;
   }
-  
   
   .text-container h2 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: larger;
   }
   
-  
   .text-container ul {
     font-family: system-ui;
     font-size: medium;
   }
   
-  
   .text-container h3 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: large;  
   }
-  
   
   #blue-brain {
     width:370px;
@@ -212,10 +169,7 @@
     border-style: solid;
     border-width: 2px;
     border-color: white;
-  
-  
   }
-  
   
   #substantia-nigra {
     float: right;
@@ -229,7 +183,6 @@
     border-color: white;
   }
   
-  
   .definition-text, .definition-title {
     margin-left: 10px;
     border-style: solid;
@@ -238,11 +191,7 @@
     height: auto;
   }
   
-  
-  .dopamine-title {
-    padding-top: 30px;
-  }
-  
+  .dopamine-title {padding-top: 30px;}
   
   #danger-sign {
     width: 70px;
@@ -252,14 +201,12 @@
     float: left;
   }
   
-  
   .cause-title {
     margin-top: 10px;
     border-style: solid;
     border-color: transparent;
     height: 1px;
   }
-  
   
   .cause-text {
     border-style: solid;
@@ -268,14 +215,7 @@
     height: 23px;
   }
   
-  
-  .cause-list {
-    float: left;
-    margin-top: 0px;
-  
-  
-  }
-  
+  .cause-list {float: left;margin-top: 0px;}
   
   .gender-title {
     position: absolute;
@@ -283,7 +223,6 @@
     top: 515px;
     margin-top: 37px;
   }
-  
   
   .gender-text {
     border-style: solid;
@@ -294,7 +233,6 @@
     right: 189px;
     top: 555px;
   }
-  
   
   #gender-display {
     height: 400px;
@@ -308,7 +246,6 @@
     border-color: white;
   }
   
-  
   #age-display {
     position: absolute;
     width: 424px;
@@ -320,14 +257,12 @@
     border-color: white;
   }
   
-  
   .age-title {
     position: absolute;
     text-align: center;
     right: 550px;
     margin-top: 150px;
   }
-  
   
   .age-text {
     position: absolute;
@@ -337,8 +272,6 @@
     border-style: solid;
     border-color: transparent;
     width: 300px;
-  
-  
   }
   
   
