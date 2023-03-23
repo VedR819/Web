@@ -1,0 +1,195 @@
+
+.top-text {
+  padding-right: 500px;
+  padding-left: 25px;
+  padding-top: 75px;
+  padding-bottom: 100px;
+  background-image: url("https://videorista.com/image/catalog/Videorista/Science/iokanan_vfx_v12.jpg");
+  background-size: cover;
+  color: white;
+  font-size: 18px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+
+.selection-header {
+overflow: hidden;
+background-color: #f1f1f1;
+padding: 20px 10px;
+top: 10px;
+}
+
+.dropdown1 {
+  position: top;
+  display: inline-block;
+}
+
+.selection-header button {
+  margin-right: 10px;
+  margin-left: 10px;
+  background-color: #a72523;
+  font-weight: bold;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none; 
+  border-radius: 5px;
+  transition: opacity 0.15s;
+}
+
+.selection-header button:hover {
+  opacity: 0.7;
+}
+
+
+.problem-dropdown {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.problem-dropdown a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown1:hover .problem-dropdown {display: block;}
+
+.dropdown2 {
+  position: right;
+  display: inline-block;
+}
+
+.solution-dropdown {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+
+.solution-dropdown a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown2:hover .solution-dropdown {display: block;}
+
+.dropdown3 {
+  position: right;
+  display: inline-block;
+}
+
+.future-dropdown {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+
+.future-dropdown a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown3:hover .future-dropdown {display: block;}
+
+.dropdown4 {
+  position: right;
+  display: inline-block;
+}
+
+.work-dropdown {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+
+.work-dropdown a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown4:hover .work-dropdown {display: block;}
+
+
+.brain-image {
+  padding-top: 20px;
+  float: left;
+  padding-left: 10px;
+}
+
+.definition-text {
+  text-align: justify;
+  float: left;
+  padding-left: 10px;
+  width: 700px;
+  border-right: 1px solid transparent;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.dopamine-text {
+  text-align: justify;
+  padding-left: 10px;
+  width: 1095px;
+  border-right: 1px solid transparent;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  
+}
+
+
+#substantia-caption {
+  float: right;
+  margin-right: 300px;
+  margin-top: 10px;
+}
+
+#column_sub1 {
+  font-family:'Times New Roman', Times, serif;
+  text-align: center;
+}
+
+
+.risk-factor-text {
+  text-align: justify;
+  float: left;
+  padding-left: 10px;
+  width: 500px;
+  border-right: 1px solid transparent;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;      
+}
+
+#age-graph-caption {
+  float: left;
+
+}
+
+
+
+
+
+
+
+
+
+
+

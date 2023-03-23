@@ -1,0 +1,173 @@
+
+.information {
+    background-color: #3a3b3c;
+    overflow: hidden;
+}
+
+.information a {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+
+.information a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+
+
+
+.title {
+    text-align: center;
+    background-color: white;
+}
+
+.top-image{
+    text-align: center;
+}
+
+
+.begin-text{
+    background-color: white;
+    text-align: left;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-left: auto;
+    margin-right: auto;
+    width: 31em;
+}
+
+
+
+
+.ace-text {
+    background-color: white;
+    text-align: left;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-left: auto;
+    margin-right: auto;
+    width: 31em;
+    padding-bottom: 1%
+}
+
+
+
+
+.pe-text {
+    background-color: white;
+    text-align: left;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-left: auto;
+    margin-right: auto;
+    width: 31em;
+    padding-bottom: 1%
+}
+
+
+
+.soccer-image {
+    float: right;
+}
+
+
+.english-text {
+    background-color: white;
+    text-align: justify;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-left: auto;
+    margin-right: auto;
+    width: 31em;
+    padding-bottom: 1%;
+    padding-bottom: 30px;
+
+}
+
+
+.bookshelf-image{
+    float: left;
+    padding-right: 11px;
+}
+
+
+.hola-image{
+    text-align: center;
+}
+.spanish-text {
+    background-color: white;
+    text-align: left;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-left: auto;
+    margin-right: auto;
+    width: 31em;
+    padding-bottom: 1%    
+}
+
+
+.computer-image {
+    float: left;
+}
+
+
+.code-text {
+    background-color: white;
+    text-align: justify;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-left: auto;
+    margin-right: auto;
+    width: 31em;
+    padding-bottom: 1%;
+    padding-bottom: 30px;  
+}
+
+.math-image {
+    float: right;
+    padding-left: 10px;
+}
+
+.math-text {
+    background-color: white;
+    text-align: justify;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-left: auto;
+    margin-right: auto;
+    width: 31em;
+    padding-bottom: 1%;
+    padding-bottom: 70px;
+    padding-left: 5px;     
+}
+
+.chemistry-image {
+    float: left;
+    padding-left: 10px;
+}
+
+.chemistry-text {
+    background-color: white;
+    text-align: justify;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-left: auto;
+    margin-right: auto;
+    width: 31em;
+    padding-bottom: 1%;
+    padding-bottom: 70px;
+    padding-left: 5px;
+    padding-right: 5px;  
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
