@@ -1,195 +1,374 @@
-
-.top-text {
-  padding-right: 500px;
-  padding-left: 25px;
-  padding-top: 75px;
-  padding-bottom: 100px;
-  background-image: url("https://videorista.com/image/catalog/Videorista/Science/iokanan_vfx_v12.jpg");
-  background-size: cover;
-  color: white;
-  font-size: 18px;
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
-}
-
-
 .selection-header {
-overflow: hidden;
-background-color: #f1f1f1;
-padding: 20px 10px;
-top: 10px;
-}
-
-.dropdown1 {
-  position: top;
-  display: inline-block;
-}
-
-.selection-header button {
-  margin-right: 10px;
-  margin-left: 10px;
-  background-color: #a72523;
-  font-weight: bold;
-  color: white;
-  padding: 16px;
-  font-size: 16px;
-  border: none; 
-  border-radius: 5px;
-  transition: opacity 0.15s;
-}
-
-.selection-header button:hover {
-  opacity: 0.7;
-}
-
-
-.problem-dropdown {
-  display: none;
-  position: absolute;
+  overflow: hidden;
   background-color: #f1f1f1;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-.problem-dropdown a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-
-.dropdown1:hover .problem-dropdown {display: block;}
-
-.dropdown2 {
-  position: right;
-  display: inline-block;
-}
-
-.solution-dropdown {
-  display: none;
-  position: absolute;
-  background-color: #f1f1f1;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-
-.solution-dropdown a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-
-.dropdown2:hover .solution-dropdown {display: block;}
-
-.dropdown3 {
-  position: right;
-  display: inline-block;
-}
-
-.future-dropdown {
-  display: none;
-  position: absolute;
-  background-color: #f1f1f1;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-
-.future-dropdown a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-
-.dropdown3:hover .future-dropdown {display: block;}
-
-.dropdown4 {
-  position: right;
-  display: inline-block;
-}
-
-.work-dropdown {
-  display: none;
-  position: absolute;
-  background-color: #f1f1f1;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-
-.work-dropdown a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-
-.dropdown4:hover .work-dropdown {display: block;}
-
-
-.brain-image {
-  padding-top: 20px;
-  float: left;
-  padding-left: 10px;
-}
-
-.definition-text {
-  text-align: justify;
-  float: left;
-  padding-left: 10px;
-  width: 700px;
-  border-right: 1px solid transparent;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-
-.dopamine-text {
-  text-align: justify;
-  padding-left: 10px;
-  width: 1095px;
-  border-right: 1px solid transparent;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  
-}
-
-
-#substantia-caption {
-  float: right;
-  margin-right: 300px;
-  margin-top: 10px;
-}
-
-#column_sub1 {
-  font-family:'Times New Roman', Times, serif;
-  text-align: center;
-}
-
-
-.risk-factor-text {
-  text-align: justify;
-  float: left;
-  padding-left: 10px;
-  width: 500px;
-  border-right: 1px solid transparent;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;      
-}
-
-#age-graph-caption {
-  float: left;
-
-}
-
-
-
-
-
-
-
-
-
-
-
+  padding: 20px 10px;
+  top: 10px;
+  }
+  
+  
+  .dropdown1 {
+    position: top;
+    display: inline-block;
+  }
+  
+  
+  .selection-header button {
+    margin-right: 7px;
+    margin-left: 7px;
+    background-color: #a72523;
+    font-weight: bold;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    transition: opacity 0.15s;
+  }
+  
+  
+  .selection-header button:hover {
+    opacity: 0.7;
+  }
+  
+  
+  .problem-dropdown {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 5px;
+    font-family: system-ui;
+  }
+  
+  
+  .problem-dropdown a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    transition: background-color 0.15s;
+  }
+  
+  
+  .dropdown1:hover .problem-dropdown {display: block;}
+  
+  
+  .problem-dropdown a:hover {
+    background-color: #bbbbbb;
+  }
+  
+  
+  
+  
+  
+  
+  .dropdown2 {
+    position: right;
+    display: inline-block;
+  }
+  
+  
+  .solution-dropdown {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    font-family: system-ui;
+  }
+  
+  
+  .solution-dropdown a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    transition: background-color 0.15s;
+  }
+  
+  
+  .dropdown2:hover .solution-dropdown {display: block;}
+  
+  
+  .solution-dropdown a:hover {
+    background-color: #bbbbbb;
+  }
+  
+  
+  
+  
+  
+  
+  .dropdown3 {
+    position: right;
+    display: inline-block;
+  }
+  
+  
+  .future-dropdown {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    font-family: system-ui;
+  }
+  
+  
+  .future-dropdown a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    transition: background-color 0.15s;
+  }
+  
+  
+  .dropdown3:hover .future-dropdown {display: block;}
+  
+  
+  .future-dropdown a:hover {
+    background-color: #bbbbbb;
+  }
+  
+  
+  
+  
+  
+  
+  .github {
+    float: right;
+  }
+  
+  
+  .top-text {
+    padding-right: 500px;
+    padding-left: 25px;
+    padding-top: 75px;
+    padding-bottom: 100px;
+    background-image: url("https://videorista.com/image/catalog/Videorista/Science/iokanan_vfx_v12.jpg");
+    background-size: cover;
+    color: white;
+    font-size: 18px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+  }
+  
+  
+  .text-container {
+    margin-left: 100px;
+    margin-top: 20px;
+    width: 1200px;
+    height: 1500px;
+    border-style: solid;
+    padding-left: 10px;
+    border-color: #a72523;
+    border-width: 10px;
+    box-shadow: 5px 10px black;
+  }
+  
+  
+  .text-container p {
+    font-family: system-ui;
+    font-size: medium;
+  }
+  
+  
+  .text-container h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+  }
+  
+  
+  .text-container ul {
+    font-family: system-ui;
+    font-size: medium;
+  }
+  
+  
+  .text-container h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;  
+  }
+  
+  
+  #red-brain {
+    width:370px;
+    height: 220px;
+    margin-top: 10px;
+    float: left;
+    margin-right: 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #a72523;
+  
+  
+  }
+  
+  
+  #substantia-nigra {
+    float: right;
+    width: 480px;
+    height: 260px;
+    margin-top: 270px;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #a72523;
+  }
+  
+  
+  .definition-text, .definition-title {
+    margin-left: 10px;
+    border-style: solid;
+    border-color: transparent;
+    width: auto;
+    height: auto;
+  }
+  
+  
+  .dopamine-title {
+    padding-top: 30px;
+  }
+  
+  
+  #danger-sign {
+    width: 70px;
+    height: 60px;
+    margin-left: 5px;
+    margin-right: 5px;
+    float: left;
+  }
+  
+  
+  .cause-title {
+    margin-top: 10px;
+    border-style: solid;
+    border-color: transparent;
+    height: 1px;
+  }
+  
+  
+  .cause-text {
+    border-style: solid;
+    border-color: transparent;
+    width: 500px;
+    height: 23px;
+  }
+  
+  
+  .cause-list {
+    float: left;
+    margin-top: 0px;
+  
+  
+  }
+  
+  
+  .gender-title {
+    position: absolute;
+    right: 370px;
+    top: 515px;
+    margin-top: 37px;
+  }
+  
+  
+  .gender-text {
+    border-style: solid;
+    border-color: transparent;
+    width: 300px;
+    height: 20px;
+    position: absolute;
+    right: 189px;
+    top: 555px;
+  }
+  
+  
+  #gender-display {
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    right: 0px;
+    margin-right: 10px;
+    margin-top: 150px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #a72523;
+  }
+  
+  
+  #age-display {
+    position: absolute;
+    width: 424px;
+    height: 315px;
+    left: 10px;
+    margin-top: 150px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #a72523;
+  }
+  
+  
+  .age-title {
+    position: absolute;
+    text-align: center;
+    right: 550px;
+    margin-top: 150px;
+  }
+  
+  
+  .age-text {
+    position: absolute;
+    text-align: center;
+    right: 450px;
+    margin-top: 180px;
+    border-style: solid;
+    border-color: transparent;
+    width: 300px;
+  
+  
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
